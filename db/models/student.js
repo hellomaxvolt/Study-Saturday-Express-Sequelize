@@ -3,6 +3,6 @@
 const Sequelize = require('sequelize');
 const db = require('../db');
 
-const Student = db.define();
+const Student = db.define('student', );
 
 module.exports = Student;
